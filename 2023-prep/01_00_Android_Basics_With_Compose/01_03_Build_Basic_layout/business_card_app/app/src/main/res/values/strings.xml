@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessCardApp</string>
+    <string name="full_name">S O</string>
+    <string name="position">Junior Android Developer</string>
+    <string name="phone_number">=359 00000000</string>
+    <string name="social_media">Social Media: @....</string>
+    <string name="email">E-mail: mail@gmail.com </string>
+</resources>
