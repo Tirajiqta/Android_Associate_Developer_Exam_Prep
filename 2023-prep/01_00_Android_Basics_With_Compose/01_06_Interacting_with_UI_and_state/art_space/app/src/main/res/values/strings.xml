@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ArtSpaceApp</string>
+    <string name="first_photo_content_description">First photo</string>
+    <string name="second_photo_content_description">Second photo</string>
+    <string name="third_photo_content_description">Third photo</string>
+    <string name="fourth_photo_content_description">Fourth photo</string>
+    <string name="fifth_photo_content_description">Fifth photo</string>
+
+    <string name="first_photo_description">Describing First photo</string>
+    <string name="second_photo_description">Describing Second photo</string>
+    <string name="third_photo_description">Describing Third photo</string>
+    <string name="fourth_photo_description">Describing Fourth photo</string>
+    <string name="fifth_photo_description">Describing Fifth photo</string>
+
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+
+
+</resources>
