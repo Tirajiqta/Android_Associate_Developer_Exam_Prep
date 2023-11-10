@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lesson05</string>
+    <string name="english_speaking_countries_question">Which countries have English as an official language?</string>
+    <string name="english_speaking_countries_answer_1">USA</string>
+    <string name="english_speaking_countries_answer_2">Canada</string>
+    <string name="english_speaking_countries_answer_3">China</string>
+    <string name="english_speaking_countries_answer_result_1">USA: Correct answer</string>
+    <string name="english_speaking_countries_answer_result_2">Canada: Correct answer</string>
+    <string name="english_speaking_countries_answer_result_3">China: Wrong answer</string>
+    <string name="ask_if_person_is_certified_android_developer">Are you an Android certified developer?</string>
+    <string name="radio_button_yes">Yes</string>
+    <string name="radio_button_no">No</string>
+    <string name="person_is_certified">Yes, I am Android Certified Developer</string>
+    <string name="person_is_not_certified">No, not yet</string>
+</resources>
