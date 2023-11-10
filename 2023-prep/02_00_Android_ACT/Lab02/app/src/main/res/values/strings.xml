@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Lab02</string>
+    <string name="app_name">Android Pizza Shop</string>
+    <string name="pizza_image_description">This is an image of a pizza</string>
+    <string name="ask_user_for_pizza_size">Choose your Pizza size:</string>
+    <string name="small_pizza">Small ($5)</string>
+    <string name="medium_pizza">Medium ($7)</string>
+    <string name="large_pizza">Large ($9)</string>
+    <string name="ask_user_for_toppings">Choose your Toppings:</string>
+    <string name="onion_topping">Onions ($1)</string>
+    <string name="olives_topping">Olives ($2)</string>
+    <string name="tomatoes_topping">Tomatoes ($3)</string>
+    <string name="place_your_order_button">PLACE YOUR ORDER</string>
+    <string name="total_order_price_placeholder">Total order price: $ %1$.2f</string>
 </resources>

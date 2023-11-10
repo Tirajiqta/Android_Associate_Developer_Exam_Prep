@@ -9,9 +9,134 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/app_name"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="116dp"
+        android:contentDescription="@string/pizza_image_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pizza" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="324dp"
+        android:text="@string/ask_user_for_pizza_size"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="359dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/smallPizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:onClick="placeOrder"
+                android:text="@string/small_pizza" />
+
+            <RadioButton
+                android:id="@+id/mediumPizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="placeOrder"
+                android:text="@string/medium_pizza" />
+
+            <RadioButton
+                android:id="@+id/largePizza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="placeOrder"
+                android:text="@string/large_pizza" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="184dp"
+        android:text="@string/ask_user_for_toppings"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/onionsCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="568dp"
+        android:onClick="placeOrder"
+        android:text="@string/onion_topping"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/olivesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="568dp"
+        android:onClick="placeOrder"
+        android:text="@string/olives_topping"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/tomatoesCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="568dp"
+        android:onClick="placeOrder"
+        android:text="@string/tomatoes_topping"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="placeOrder"
+        android:text="@string/place_your_order_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="696dp"
+        android:text=""
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
