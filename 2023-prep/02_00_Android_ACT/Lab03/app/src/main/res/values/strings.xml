@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab06</string>
+    <string name="frame_layout_courses_label">Courses</string>
+    <string name="frame_layout_exams_label">Exams</string>
+    <string name="frame_layout_freelance_label">Freelance</string>
+    <string name="info_courses">Android Application Development, Android Security Essentials and Monetize Android Applications</string>
+    <string name="info_exams">Android Application Development and Android Security Exam</string>
+    <string name="info_freelance">Android Application Development</string>
+</resources>
