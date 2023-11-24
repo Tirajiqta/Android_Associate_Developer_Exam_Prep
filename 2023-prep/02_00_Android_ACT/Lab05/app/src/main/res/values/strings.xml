@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android ATC Pizza Shop</string>
+    <string name="schedule_pickup">Schedule a pickup</string>
+    <string name="full_name_placeholder">Full name</string>
+    <string name="phone_number_placeholder">Phone Number</string>
+    <string name="pizza_size_placeholder">Pizza size</string>
+    <string name="price_placeholder">Price: Small : $5, Medium: $8, Large: $11, Extra Large: $14</string>
+    <string name="date_button">Select Date</string>
+    <string name="time_button">Select Time</string>
+    <string name="schedule_button">Schedule</string>
+    <string name="feedback_placeholder">Please leave your feedback, it is important for us!</string>
+    <string name="send_button">Send feedback</string>
+</resources>
