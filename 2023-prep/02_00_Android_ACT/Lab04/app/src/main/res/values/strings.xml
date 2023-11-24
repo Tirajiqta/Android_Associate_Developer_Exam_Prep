@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MailScheduleApp</string>
+    <string name="mail_car_description">Mail car picture</string>
+    <string name="mail_schedule_main_text">Mail Schedule Pickup</string>
+    <string name="name_placeholder">Name</string>
+    <string name="address_placeholder">Address</string>
+    <string name="city_placeholder">City</string>
+    <string name="province_placeholder">Province(State)</string>
+    <string name="postal_placeholder">Postal (Zip) Code</string>
+    <string name="country_placeholder">Country</string>
+    <string name="schedule_button">Schedule</string>
+    <string name="accept_button">Accept</string>
+    <string name="edit_button">Edit</string>
+    <string name="thanks">Thank you for your order!</string>
+</resources>
